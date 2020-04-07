@@ -15,6 +15,6 @@
     "react-hotkeys-hook": "2.1.1"
   },
   "devDependencies": {
-    "now": "^17.1.1"
+    "now": "17.1.1"
   }
 }

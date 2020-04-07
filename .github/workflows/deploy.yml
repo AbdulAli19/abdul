@@ -8,7 +8,7 @@ jobs:
       # - run: yarn install && now --no-clipboard -t ${ZEIT_TOKEN} --prod
       #   env:
       #     ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-        uses: artemis-tech/zeit-now-cli@v1
+      - uses: artemis-tech/zeit-now-cli@v1
         env:
           ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
         with:
