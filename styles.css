@@ -1,0 +1,17 @@
+:root {
+  --bg: #fff;
+  --fg: #000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.dark {
+  --bg: #000;
+  --fg: #fff;
+}
