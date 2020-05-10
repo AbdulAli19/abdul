@@ -31,7 +31,7 @@ const Home = () => {
 
       <main>
         <div>
-          <h1 className="title">Abdul Ali</h1>
+          <h1>Abdul Ali</h1>
           <p>
             frontend engineer w a passion for building high-quality products ppl
             love 💕
@@ -75,7 +75,10 @@ const Home = () => {
 
       <style jsx>{`
         h1 {
-          color: #333;
+          margin: 0;
+          padding-top: 80px;
+          padding-bottom: 16px;
+          border-bottom: 1px solid #eee;
         }
 
         .container {
@@ -88,12 +91,6 @@ const Home = () => {
           justify-content: space-between;
         }
 
-        .title {
-          margin: 0;
-          padding-top: 80px;
-          font-size: 48px;
-        }
-
         .icon-wrapper:hover {
           cursor: pointer;
           opacity: 0.5;
@@ -104,12 +101,12 @@ const Home = () => {
         }
 
         a:hover {
-          color: #38cced;
+          color: currentColor;
+          opacity: 0.5;
         }
 
         footer {
           margin-bottom: 16px;
-          font-size: 14px;
           font-weight: 300;
           display: flex;
           justify-content: space-between;
@@ -117,11 +114,11 @@ const Home = () => {
 
         footer a {
           text-decoration: none;
+          opacity: 1;
         }
 
         footer a:hover {
           text-decoration: underline;
-          color: currentColor;
         }
 
         footer span {
