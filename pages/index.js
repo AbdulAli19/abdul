@@ -81,6 +81,10 @@ const Home = () => {
           border-bottom: 1px solid #eee;
         }
 
+        a {
+          color: var(--fg);
+        }
+
         .container {
           height: 100vh;
           display: flex;
@@ -96,12 +100,7 @@ const Home = () => {
           opacity: 0.5;
         }
 
-        a:visited {
-          color: inherit;
-        }
-
         a:hover {
-          color: currentColor;
           opacity: 0.5;
         }
 
